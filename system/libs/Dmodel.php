@@ -4,7 +4,7 @@ class Dmodel{
     public function __construct(){
         $connect = 'mysql:dbname=shopaoquan;host=localhost';
         $user = 'root';
-        $pass = '';
+        $pass = "";
         $this->db = new Database($connect,$user,$pass);
     }
 }

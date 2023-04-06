@@ -22,7 +22,7 @@ class category extends Dcontroller{
         $this->load->view('categorybyid' , $data);
         $this->load->view('footer');
     }
-    public function homepage(){
+    public function homeage(){
         $this->load->view('header');
         $this->load->view('home');
         $this->load->view('footer');

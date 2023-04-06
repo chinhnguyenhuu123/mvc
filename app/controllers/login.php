@@ -28,7 +28,7 @@
                 Session::set('login',$email);
                 $this->load->view('header',);
                 $this->load->view('menu',);
-                $this->load->view('admin' ,);
+                $this->load->view('quanliloai' ,);
                 $this->load->view('footer',);
             }
             else
